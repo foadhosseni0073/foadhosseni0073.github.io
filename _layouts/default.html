@@ -1,8 +1,32 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body class="home">
+<html dir=rtl>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} سالت شخصی فواد حسینی عکاسی نوستاۀژی</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+ 
+  <div id="main">
+ 
+    <header>
+      <h1> عکاسی نوستالژی </h1>
+    <header>
+ 
+    <nav role="navigation" align="centr">
+      <ul>
+       <h3> <li><a href="/">خانه</a></li</h3>
+        <li><a href="/portfolio/">نمونه کار های من</a></li>
+       
+      </ul>
+    </nav>
+ 
     {{ content }}
-  {% include footer.html %}
-  </body>
+ 
+    <footer>
+      <p>foad hosseni </p>
+    </footer>
+ 
+  </div>
+</body>
 </html>
